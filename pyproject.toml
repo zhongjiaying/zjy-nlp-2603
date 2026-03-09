@@ -1,0 +1,25 @@
+[project]
+name = "zjy-nlp-2603"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=1.66.0",
+    "jupyter>=1.1.1",
+    "pandas==2.*",
+    "polars>=1.38.1",
+    "pyarrow>=23.0.1",
+    "scikit-learn>=1.8.0",
+    "torch",
+]
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cu130" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
