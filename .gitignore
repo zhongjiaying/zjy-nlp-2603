@@ -1,3 +1,4 @@
 genai_api_key.txt
 sums
+.DS_Store
 *.parquet

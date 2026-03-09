@@ -11,7 +11,7 @@ dependencies = [
     "polars>=1.38.1",
     "pyarrow>=23.0.1",
     "scikit-learn>=1.8.0",
-    "torch",
+    "tqdm>=4.67.3",
 ]
 
 [tool.uv.sources]
