@@ -1,2 +1,4 @@
 sums.zip filter=lfs diff=lfs merge=lfs -text
 ner.zip filter=lfs diff=lfs merge=lfs -text
+022_summary_embeddings_test.npy filter=lfs diff=lfs merge=lfs -text
+021_filtered_data.parquet filter=lfs diff=lfs merge=lfs -text

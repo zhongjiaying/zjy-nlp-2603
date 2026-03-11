@@ -5,4 +5,3 @@ genai_api_key.txt
 ner
 sums
 .DS_Store
-*.parquet
