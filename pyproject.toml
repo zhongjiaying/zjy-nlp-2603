@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "accelerate>=1.10.1",
     "bertopic>=0.17.4",
+    "cuml-cu13; platform_system == 'Linux'",
     "google-genai>=1.66.0",
     "jupyter>=1.1.1",
     "pandas==2.*",

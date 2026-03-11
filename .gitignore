@@ -2,9 +2,14 @@
 .vscode
 __pycache__
 genai_api_key.txt
+
 ner
 sums
+topics
+
 .DS_Store
 
 01*.parquet
+023*.parquet
+
 news_final_project.parquet

@@ -3,3 +3,5 @@ ner.zip filter=lfs diff=lfs merge=lfs -text
 022_summary_embeddings_test.npy filter=lfs diff=lfs merge=lfs -text
 021_filtered_data.parquet filter=lfs diff=lfs merge=lfs -text
 020_labeled_data.parquet filter=lfs diff=lfs merge=lfs -text
+022_summary_embeddings.npy filter=lfs diff=lfs merge=lfs -text
+024_labeled_cluster_data.parquet filter=lfs diff=lfs merge=lfs -text
