@@ -10,6 +10,7 @@ dependencies = [
     "cuml-cu13; platform_system == 'Linux'",
     "datasets==3.*",
     "google-genai>=1.66.0",
+    "ipykernel>=7.2.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
     "pandas==2.*",
@@ -21,6 +22,9 @@ dependencies = [
     "torch>=2.8.0",
     "tqdm>=4.67.3",
 ]
+
+[tool.uv]
+index-url = 'https://pypi.tuna.tsinghua.edu.cn/simple'
 
 [tool.uv.sources]
 torch = [
